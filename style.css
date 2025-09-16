@@ -10,6 +10,76 @@
     box-sizing: border-box;
 }
 
+
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 47px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.div-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #675569;
+    width: 240px;
+    height: 218px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: -210px;
+}
+
+.dropdown-content a {
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dad8d8;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-container:hover .icon {
+    background-color: #DB4444;
+}
+
+.drop-left-top {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+
 .navbar {
     display: flex;
     gap: 8px;
@@ -218,6 +288,7 @@ ul {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .card1 {
@@ -391,15 +462,17 @@ ul {
     transition: box-shadow 0.3s;
 }
 
-  .buttoclas:hover button {
-      opacity: 1;              /* Ko'rinadi */
-      pointer-events: auto;    /* Foydalanuvchi bosishi mumkin */
-    }
+.buttoclas:hover button {
+    opacity: 1;
+    /* Ko'rinadi */
+    pointer-events: auto;
+    /* Foydalanuvchi bosishi mumkin */
+}
 
-    /* Hover effekti uchun card soyasi */
-    .jostik-card:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
+/* Hover effekti uchun card soyasi */
+.jostik-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
 .images {
     padding-top: 49px;
@@ -527,6 +600,8 @@ ul {
     margin-right: -150px;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
     gap: 30px;
 }
 
