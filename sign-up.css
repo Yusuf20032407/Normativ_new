@@ -1,0 +1,278 @@
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input {
+    border: none;
+    width: 370px;
+    height: 32px;
+}
+
+.login-input {
+    margin-left: 130px;
+    margin-top: 48px;
+}
+
+.hover.active {
+    border-bottom: 2px solid gray;
+}
+
+.navbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 48px;
+    padding-left: 270px;
+}
+
+.select {
+    margin-left: 180px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.parent1 {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin-left: 110px;
+}
+
+.input {
+    position: absolute;
+    width: 243px;
+    height: 38px;
+    color: #000000;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    color: #999999;
+}
+
+.img {
+    position: relative;
+    margin-left: 207px;
+    padding-top: 5px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+
+}
+
+.child2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 44px;
+}
+
+hr {
+    margin-top: 16px;
+}
+
+.p {
+    font-family: "Poppins", sans-serif;
+    /* color: white; */
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.parent-login {
+    display: flex;
+    margin-top: 60px;
+}
+
+.login-h1 {
+    font-family: Inter;
+    color: black;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    margin-left: 129px;
+}
+
+.login-parent2 {
+    padding-top: 125px;
+}
+
+.login-p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 24px;
+    margin-left: 129px;
+}
+
+.login-button {
+    background-color: #DB4444;
+    margin-top: 40px;
+    margin-left: 129px;
+    width: 371px;
+    height: 56px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 122px;
+    padding-bottom: 16px;
+    padding-left: 122px;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.button-img {
+    position: relative;
+}
+
+.button-absolut {
+    display: flex;
+    margin-left: 129px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    gap: 16px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 371px;
+    height: 56px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 86px;
+    padding-bottom: 16px;
+    padding-left: 86px;
+    border-width: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.login-p2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.login-a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.border {
+    border: 1px solid#7F7F7F;
+    margin-top: 8px;
+}
+
+.border1 {
+    border: 1px solid#7F7F7F;
+    margin-top: 8px;
+}
+
+.border2 {
+    border: 1px solid#7F7F7F;
+    margin-top: 8px;
+}
+.login-input2{
+    margin-top: 40px;
+}
+.login-input3{
+    margin-top: 40px;
+}
+
+.login-div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 106px;
+    margin-left: 191px;
+}
+
+.border {
+    width: 370px;
+    border-bottom: 1px solid gray;
+}
+
+
+/* birinchi login qismi */

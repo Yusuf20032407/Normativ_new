@@ -1,0 +1,1305 @@
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 48px;
+    padding-left: 270px;
+}
+
+.iphone12 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 600px;
+    line-height: 60px;
+    letter-spacing: 4%;
+}
+
+h2 {
+    display: flex;
+    align-items: end;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 48px;
+    letter-spacing: 4%;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #DB4444;
+}
+
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    /* color: white; */
+    font-style: normal;
+}
+
+.flash123 {
+    display: flex;
+    align-items: center;
+    gap: 340px;
+    padding-bottom: 60px;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.select {
+    margin-left: 180px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.parent1 {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin-left: 110px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.input {
+    position: absolute;
+    width: 243px;
+    height: 38px;
+    padding-top: 5px;
+    padding-left: 30px;
+    color: #000000;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F5F5;
+    font-size: 14px;
+}
+
+.hover.active {
+    border-bottom: 2px solid gray;
+}
+
+.img {
+    position: relative;
+    margin-left: 207px;
+    padding-top: 5px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+
+}
+
+.child2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 44px;
+}
+
+hr {
+    margin-top: 16px;
+}
+
+.child3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.child4 {
+    margin-left: 1px;
+}
+
+.child6 {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.child5 {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.child7 {
+    padding-top: 16px;
+}
+
+.heroline {
+    /* Ekranga yopishtirib qo'yish */
+    right: 1120px;
+    /* Ekranning o'ng chetida */
+    top: 136px;
+    /* Yuqoridan boshlanadi */
+    width: 1px;
+    /* Chiziq qalinligi */
+    height: 384px;
+    /* Ekran balandligi bo'yicha */
+    background-color: #B3B3B3;
+
+}
+
+.parent2 {
+    display: flex;
+    gap: 61px;
+}
+
+.card {
+    width: 892px;
+    height: 344px;
+    background-color: #000000;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    padding-left: 64px;
+    padding-top: 58px
+}
+
+.card-title {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.shopnew-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 22px;
+}
+
+.heroimg {
+    margin-left: 7px;
+}
+
+.hover1.active {
+    border-bottom: 2px solid white;
+}
+
+.dumaloactiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: -400px;
+    margin-top: -10px;
+}
+
+.product {
+    padding-top: 140px;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 24px;
+    margin-top: 140px;
+}
+
+.kvadrat {
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+
+.day-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #DB4444;
+}
+
+.flash {
+    display: flex;
+    align-items: end;
+    padding-bottom: 40px;
+
+}
+
+.flash-title {
+    align-items: end;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 4%;
+    padding-right: 87px
+}
+
+.days {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    text-align: center;
+    align-items: end;
+}
+
+.days1 {
+    display: flex;
+    align-items: center;
+    padding-left: 87px;
+    gap: 10px;
+}
+
+.top-title {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-top: 4px;
+}
+
+.day-12 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    margin-left: 6px;
+}
+
+.day-h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    margin-left: 6px;
+}
+
+.dot {
+    display: flex;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #E07575;
+    margin-bottom: 8px;
+}
+
+.dot-sec {
+    margin-top: 30px;
+}
+
+.arrow-right {
+    margin-left: 470px;
+}
+
+.arrow-bg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 45px;
+}
+
+/* Sectioooooooooooooooooooooooooooon */
+
+.jostik-card {
+    width: 270px;
+    height: 250px;
+    background-color: #F5F5F5;
+    position: relative;
+    border-radius: 4px;
+
+
+    border: 1px solid #ccc;
+    /* ichidagi buttonni joylashtirish uchun */
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+  .buttoclas:hover button {
+      opacity: 1;              /* Ko'rinadi */
+      pointer-events: auto;    /* Foydalanuvchi bosishi mumkin */
+    }
+
+    /* Hover effekti uchun card soyasi */
+    .jostik-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.images {
+    padding-top: 49px;
+    padding-left: 49px;
+    padding-bottom: 49px;
+    padding-bottom: 49px;
+}
+
+.clas40 {
+    position: absolute;
+    background-color: #DB4444;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Poppins;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.jostik-card1 {
+    width: 270px;
+    height: 270px;
+}
+
+.yulduz {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.yulduzp {
+    color: #7F7F7F;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 8px;
+    font-family: Poppins;
+    padding-top: 8px;
+}
+
+.pflex {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.redp {
+    color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Poppins;
+    padding-top: 8px;
+}
+
+.greyp {
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Poppins;
+    text-decoration: line-through;
+    padding-top: 8px;
+}
+
+.havitp {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Poppins;
+}
+
+.yurak {
+    position: absolute;
+    margin-left: 224px;
+    margin-top: 12px;
+}
+
+.kozlar {
+    position: absolute;
+    margin-left: 224px;
+    margin-top: 54px;
+}
+
+.button {
+    background-color: #000000;
+    position: relative;
+    width: 270px;
+    height: 41px;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.buttoclas {
+    position: absolute;
+    margin-top: -70px;
+}
+
+.images1 {
+    padding-top: 61px;
+    padding-left: 49px;
+    padding-bottom: 49px;
+    padding-bottom: 49px;
+}
+
+.images2 {
+    padding-top: 35px;
+    padding-left: 81px;
+    padding-bottom: 49px;
+    padding-bottom: 49px;
+}
+
+.cardigr {
+    display: grid;
+    overflow-x: hidden;
+    margin-right: -150px;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.pas-button {
+    font-family: Poppins;
+    color: white;
+    background-color: #DB4444;
+    font-weight: 500;
+    font-size: 16px;
+    width: 234px;
+    height: 56px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.button-cardd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.button-hr {
+    margin-bottom: 80px;
+}
+
+.browse-h1 {
+    color: #000000;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 4%;
+}
+
+
+
+.Product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-button {
+    width: 159px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #DB4444;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+}
+
+.imagess {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-bottom: 40px;
+}
+
+.imagess1 {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-bottom: 40px;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.Music {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 500px;
+    margin-bottom: 71px;
+}
+
+.music-p {
+    color: #00FF66;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+    padding-top: 69px;
+}
+
+.music-exp {
+    padding-left: 56px;
+}
+
+.music-button {
+    color: white;
+    background-color: #00FF66;
+    border-radius: 4px;
+    width: 171px;
+    height: 56px;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+.music-h1 {
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 4px;
+
+}
+
+.music-section {
+    width: 62px;
+    height: 62px;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.categorys {
+    display: flex;
+    padding-bottom: 70px;
+    gap: 25px;
+}
+
+.category {
+    width: 170px;
+    height: 145px;
+    border: 1px solid #0000004D;
+    border-radius: 4px;
+}
+
+
+.category:hover {
+    background: rgb(34, 251, 251);
+    filter: brightness() invert(1)
+}
+
+.telephone-icon {
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-top: 25px;
+    padding-bottom: 16px;
+}
+
+.camera-icon {
+    width: 100px;
+}
+
+.telephone-title {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+
+
+
+.music-section-p1 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 20px;
+    padding-top: 12px;
+    padding-left: 21px;
+    letter-spacing: -0px;
+}
+
+.music-section-p2 {
+    color: black;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 18px;
+    padding-left: 15px;
+    letter-spacing: -0px;
+}
+
+.music-section-p3 {
+    color: black;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 18px;
+    padding-left: 17px;
+    letter-spacing: -0px;
+}
+
+.music-section-p4 {
+    color: black;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 18px;
+    padding-left: 10px;
+    letter-spacing: -0px;
+}
+
+.music-section-p5 {
+    color: black;
+    font-size: 11px;
+    font-weight: 400px;
+    font-family: Poppins, sans-serif;
+    line-height: 18px;
+    padding-left: 7px;
+    letter-spacing: -0px;
+}
+
+.music-flex {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.kalonka1 {
+    box-shadow: #F5F5F5;
+    filter: drop-shadow(0px 30px 120px #ffffff4b) drop-shadow(0px 30px 120px #ffffff37);
+    padding-top: 37px;
+    padding-right: -44px;
+
+}
+
+.expolor-product {
+    color: black;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 4%;
+}
+
+.flash-expolor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+}
+
+.item-img {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+}
+
+.item-yulduz {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-img-camera {
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-right: 44px;
+    padding-bottom: 85px;
+}
+
+.item-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.item-card-40 {
+    position: absolute;
+    background-color: #00FF66;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Poppins;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.item-icons {
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+
+
+.arriwal-p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.arriwal-p2 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.servis-flex {
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+}
+
+.servis-item {
+    padding-left: 84px;
+}
+
+.servis-p {
+    padding-top: 24px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.servis-card {
+    width: 265px;
+    height: 165px;
+}
+
+.servis-p2 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.servis-p1 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.input-icons {
+    align-items: center;
+    margin-left: 178px;
+    padding-top: 12px;
+    position: relative;
+}
+
+.footer-text {
+    position: absolute;
+
+}
+
+.foot-input {
+    width: 217px;
+    height: 48px;
+    border: solid 1px white;
+    background-color: #000000;
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+.footer-banner {
+    display: flex;
+    align-items: center;
+    height: 440px;
+    background-color: #000000;
+    margin-top: 140px;
+    padding-left: 45px;
+}
+
+.title-p {
+    color: white;
+}
+
+.footer-card1 {
+    padding-top: 80px;
+    padding-left: 87px;
+}
+
+.footer-p {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding-bottom: 24px;
+    color: white;
+}
+
+.footer-p1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 24px;
+    color: white;
+}
+
+.footer-p2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+    color: white;
+}
+
+.footer-card {
+    padding-top: 80px;
+    padding-left: 135px;
+}
+
+.footer-p3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 24px;
+    color: white;
+}
+
+.footer-p4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+    color: white;
+}
+
+.footer-p5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+    color: white;
+}
+
+.footer-a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.footer-li {
+    padding-top: 16px;
+}
+
+.footer-card2 {
+    padding-top: 130px;
+    padding-left: 87px;
+}
+
+.footer-card3 {
+    padding-top: 90px;
+    padding-left: 87px;
+}
+
+.footer-flex {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.footer-textp {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: white;
+
+}
+
+.footer-textp1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.icon-flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.footer-icon-card {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-card-flex {
+    margin-top: 98px;
+    margin-left: 87px;
+}
+
+.footer-text-pas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: solid 1px #141414;
+    padding: 35px;
+}
+
+.footer-hr {
+    height: 0px;
+    background-color: #141414;
+}
+
+.text-card-p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.plastaion5 {
+    width: 570px;
+    height: 600px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: black;
+    padding-top: 89px;
+    padding-left: 29px;
+    padding-right: 30px;
+}
+
+.bg-img-plastation5 {
+    background-image: url(./assets/2talikpley.png);
+    width: 511px;
+    height: 511px;
+}
+
+.plastation-title {
+    color: white;
+    padding-top: 340px;
+    padding-bottom: 32px;
+}
+
+.ps-title {
+    padding-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.ps-desc {
+    padding-bottom: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.ps-a-teg {
+    text-decoration: none;
+    border-bottom: white 1px solid;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.women {
+    width: 570px;
+    height: 284px;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: #000000;
+}
+
+.women-flex {
+    position: absolute;
+    padding-left: 138px;
+}
+
+.josa-title-desc-tag {
+    color: white;
+    padding-top: 138px;
+    padding-left: 24px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.josa-titlee {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding-bottom: 16px;
+}
+
+.asvijitel {
+    width: 270px;
+    height: 284px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: #212121;
+}
+
+.asvijitel-bg {
+    background-image: url(./assets/minikalonka3tali.png);
+    width: 190px;
+    height: 221px;
+    margin-top: 31px;
+    margin-bottom: 32px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.asvijitel-title-desc-tag {
+    color: white;
+    padding-top: 135px;
+}
+
+.asvijitel-title {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding-bottom: 8px;
+}
+
+.asvijitel-desc {
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+}
+
+.atir {
+    width: 270px;
+    height: 284px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    background-color: #212121;
+}
+
+.atir-bg {
+    background-image: url(./assets/guchchi.png);
+    width: 201px;
+    height: 203px;
+    margin-top: 38px;
+    margin-bottom: 43px;
+    margin-left: 34px;
+    margin-right: 35px;
+}
+
+.atir-title-desc-tag {
+    color: white;
+    padding-top: 135px;
+}
+
+.atir-title {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: semi Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding-bottom: 8px;
+}
+
+.atir-desc {
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+}
