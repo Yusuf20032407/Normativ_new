@@ -7,6 +7,17 @@
     <title>card</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/footer-card.css">
+    <link rel="stylesheet" href="/login-up2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -45,14 +56,16 @@
                     <div class="card-page-item">
                         <img src="./assets/images/Wishlist.svg" alt="">
                         <img src="./assets/images/Cart1withbuy.svg" alt="">
-                        <div class="dropdown-container">
-                            <div class="icon"><img src="./assets/images/user-round.svg" alt=""></div>
+                        <label class="dropdown-container">
+                            <input type="checkbox" class="dropdown-toggle" hidden>
+                            <div class="icon">
+                                <img src="./assets/images/user-round.svg" alt="">
+                            </div>
                             <div class="dropdown-content">
                                 <div class="drop-left-top">
                                     <div class="div-flex">
                                         <img src="./assets/images/user.svg" alt="">
-                                        <a href="#">Manage My
-                                            Account</a>
+                                        <a href="#">Manage My Account</a>
                                     </div>
                                     <div class="div-flex">
                                         <img src="./assets/images/icon-mallbag.svg" alt="">
@@ -72,13 +85,167 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </label>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <hr>
+    <div class="container">
+        <div class="cart-page-item">
+            <a class="cart-page-a1" href="/index.html">Home</a>
+            <p class="cart-page">/</p>
+            <a class="cart-page-a2" href="/footer-card.html">Cart</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cart-pages">
+            <div class="cart-page-flex">
+                <p class="cart-page-p">Product</p>
+                <p class="cart-page-p">Price</p>
+                <p class="cart-page-p">Quantity</p>
+                <p class="cart-page-p">Subtotal</p>
+            </div>
+        </div>
+        <div class="cart-page-flex2">
+            <div class="cart-page-flexqlish">
+                <div class="cart-page-card">
+                    <img class="cart-page-img" src="./assets/images/x-svg.svg" alt="">
+                    <img src="./assets/images/kottakompyuter.png" alt="">
+                    <p>LCD Monitor</p>
+                </div>
+                <p class="paffingleft">$650</p>
+                <div class="card-page-div">
+                    <p>01</p>
+                    <img src="./assets/images/iconka-tepa-pas.svg" alt="">
+                </div>
+                <p class="padding-left">$650</p>
+            </div>
+        </div>
+        <div class="cart-page-flex2">
+            <div class="gamepad-flex">
+                <div class="gamepad1">
+                    <img src="./assets/images/Gamepad-Cart-Small.png" alt="">
+                    <p>H1 Gamepad</p>
+                </div>
+                <p class="gamepad-p">$550</p>
+                <div class="card-page-div1">
+                    <p>02</p>
+                    <img src="./assets/images/iconka-tepa-pas.svg" alt="">
+                </div>
+                <p class="gamepad-p2">$1100</p>
+            </div>
+        </div>
+        <div class="gamepad-btn-flex">
+            <button class="gamepad-btn">Return To Shop</button>
+            <button class="gamepad-btn2">Update Cart</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="coupon">
+            <div class="coupon-title">
+                <input class="coupon-inp" type="text" placeholder="Coupon Code">
+                <button class="coupon-btn">Apply Coupon</button>
+            </div>
+            <div class="coupon-title1">
+                <p class="coupon-p">Cart Total</p>
+                <div class="coupon-child">
+                    <p class="coupon-child-p">Subtotal:</p>
+                    <p class="coupon-child-p1">$1750</p>
+                </div>
+                <div class="dvider"></div>
+                <div class="coupon-child1">
+                    <p class="coupon-child-p">Shipping:</p>
+                    <p class="coupon-child-p1">Free</p>
+                </div>
+                <div class="dvider"></div>
+                <div class="coupon-child2">
+                    <p class="coupon-child-p">Total:</p>
+                    <p class="coupon-child-p1">$1750</p>
+                </div>
+                <button class="coupon-child-btn">Procees to checkout</button>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="footer-banner">
+            <div class="footer-card5">
+                <p class="footer-p">Exclusive</p>
+                <p class="footer-p1">Subscribe</p>
+                <p class="footer-p2">Get 10% off your first order</p>
+                <div class="footer-text">
+                    <input class="foot-input" type="text" placeholder="Enter your email">
+                </div>
+                <img class="input-icons" src="./assets/images/telegram-icon.svg" alt="">
+            </div>
+            <div class="footer-card1">
+                <p class="footer-p3">Support</p>
+                <p class="footer-p4">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+                <p class="footer-p5">exclusive@gmail.com</p>
+                <p>+88015-88888-9999</p>
+            </div>
+            <nav class="footer-card2">
+                <p class="footer-p3">Account</p>
+                <ul>
+                    <li class="footer-li1">
+                        <a class="footer-a" href="">My Account</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="">Login / Register</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="/footer-card.html">Cart</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="/wistlist.html">Wishlist</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="">Shop</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer-card3">
+                <p class="footer-p3">Quick Link</p>
+                <ul>
+                    <li class="footer-li1">
+                        <a class="footer-a" href="">Privacy Policy</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="">Terms Of Use</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="">FAQ</a>
+                    </li>
+                    <li class="footer-li">
+                        <a class="footer-a" href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-card-flex">
+                <p class="footer-textp">Download App</p>
+                <p class="footer-textp1">Save $3 with App New User Only</p>
+                <div class="footer-flex">
+                    <img src="./assets/Qr Code.png" alt="">
+                    <div class="footer-grid">
+                        <img src="./assets/GooglePlay.svg" alt="">
+                        <img src="./assets/AppStore.svg" alt="">
+                    </div>
+                </div>
+                <div class="icon-flex">
+                    <img class="footer-icon-card" src="./assets/Icon-Facebook.png" alt="">
+                    <img class="footer-icon-card" src="./assets/Icon-Twitter.png" alt="">
+                    <img class="footer-icon-card" src="./assets/icon-instagram.png" alt="">
+                    <img class="footer-icon-card" src="./assets/Icon-Linkedin.png" alt="">
+                </div>
+            </div>
+            <hr class="footer-hr">
+        </div>
+        <div class="footer-text-pas">
+            <img src="./assets/icon-copyright.svg" alt="">
+            <p class="text-card-p">Copyright Rimel 2022. All right reserved</p>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -15,6 +15,7 @@
 .dropdown-container {
     position: relative;
     display: inline-block;
+    cursor: pointer;
 }
 
 .icon {
@@ -24,7 +25,6 @@
     width: 32px;
     height: 32px;
     border-radius: 47px;
-    cursor: pointer;
     padding-left: 5px;
 }
 
@@ -48,6 +48,11 @@
     margin-left: -210px;
 }
 
+.dropdown-toggle:checked+.icon+.dropdown-content {
+    display: block;
+}
+
+
 .dropdown-content a {
     color: white;
     font-family: Poppins;
@@ -64,10 +69,6 @@
 
 .dropdown-content a:hover {
     background-color: #dad8d8;
-}
-
-.dropdown-container:hover .dropdown-content {
-    display: block;
 }
 
 .dropdown-container:hover .icon {
