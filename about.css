@@ -78,14 +78,261 @@
     letter-spacing: 0%;
 
 }
-.about-card{
+
+.about-card {
     display: flex;
     align-items: center;
     margin-bottom: 140px;
 }
-.about-img{
+
+.about-img {
     margin-left: 140px;
 }
-.about-section{
+
+.about-section {
     padding-left: 155px;
+}
+
+.statistics-card {
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+    border: 1px solid #B3B3B3;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 140px;
+}
+
+.statistics-img {
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 30px;
+}
+
+.statistics-img2 {
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 32px;
+}
+
+.statistics-img3 {
+    padding-left: 91px;
+    padding-right: 91px;
+    padding-top: 30px;
+}
+
+.statistics-img4 {
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 30px;
+}
+
+.statistics-p {
+    padding-left: 90px;
+    padding-right: 88px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 4%;
+
+}
+
+.statistics-p1 {
+    padding-left: 103px;
+    padding-right: 103px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 4%;
+
+}
+
+.statistics-p2 {
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 4%;
+
+}
+
+.statistics-p3 {
+    padding-left: 103px;
+    padding-right: 104px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 4%;
+
+}
+
+.statistics-p4 {
+    padding-top: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.statistics-p5 {
+    padding-top: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.statistics-p6 {
+    padding-top: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.statistics-p7 {
+    padding-top: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.team-img {
+    width: 370px;
+    height: 430px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+}
+
+.team-card {
+    width: 370px;
+    height: 564px;
+}
+
+.team-img-1 {
+    padding-top: 39px;
+    padding-left: 67px;
+    padding-right: 67px;
+
+}
+
+.team-img-2 {
+    padding-top: 33px;
+    padding-left: 38px;
+    padding-right: 38px;
+
+}
+
+.team-img-3 {
+    padding-top: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+
+.team-icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.team-p {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 4%;
+    padding-top: 32px;
+}
+
+.team-p1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: black;
+    padding-top: 8px;
+}
+
+.team-position {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: ;
+}
+
+.dumalo-carusel-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 140px;
+    margin-top: 40px;
+}
+
+.dumalo-bg {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+
+}
+
+.dumalo.hover {
+    border: 1px solid white;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-top: 1.5px;
+    margin-bottom: 2px;
+    margin-left: 1.5px;
+    margin-right: 2px;
+    background-color: red;
+
+}
+
+.img-mttop {
+    margin-bottom: 140px;
 }
