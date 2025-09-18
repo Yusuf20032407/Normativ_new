@@ -111,6 +111,17 @@ body {
     gap: 12px;
 }
 
+.footer-btn-a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+    text-decoration: none;
+}
+
 .cart-page-flexqlish {
     display: flex;
     align-items: center;
