@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: #faf9f9;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -49,4 +53,206 @@
 
 span {
     color: #DB4444;
+}
+
+.accaount-menu-p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.account-menu {
+    margin-left: 30px;
+}
+
+.account-menu-p1 {
+    color: #DB4444;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+}
+
+.account-menu-p2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7F7F7F;
+}
+
+.account-menu-p3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7F7F7F;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.account-menu-p5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7F7F7F;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.account-menu-p6 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.account-card {
+    width: 870px;
+    height: 630px;
+    background-color: #ffff;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.azim-p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #DB4444;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
+.acccard {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.accinp {
+    width: 330px;
+    height: 50px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    border: none;
+    padding-left: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #7A7A7A;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 8px;
+}
+
+.acc-p1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 16px;
+}
+
+.account-card-input {
+    width: 710px;
+    height: 50px;
+    background-color: #F5F5F5;
+    padding-left: 16px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7A7A7A;
+}
+
+.acc-menu-item {
+    margin-top: 24px;
+}
+
+.azim-p1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.account-btn {
+    width: 214px;
+    height: 56px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    background-color: #DB4444;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.azimp1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.account-card2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 407px;
+    margin-top: 24px;
+}
+.account-parent{
+    display: flex;
+    justify-content: space-between;
 }
