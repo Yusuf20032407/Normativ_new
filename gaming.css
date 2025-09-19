@@ -410,6 +410,26 @@ body {
     text-decoration-thickness: 0%;
     color: black
 }
-.parent-gaming-page{
+
+.parent-gaming-page {
     display: flex;
+}
+
+.cardigr1 {
+    display: grid;
+    overflow-x: hidden;
+    margin-right: -150px;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.images21 {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
